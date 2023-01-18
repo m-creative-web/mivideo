@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies: {  }
+id: mivideo
+label: MiVideo
+provider_url: 'https://www.mivideo.it.umich.edu'
+endpoints:
+  -
+    schemes:
+      - 'https://www.mivideo.it.umich.edu/media/*'
+      - 'http://www.mivideo.it.umich.edu/media/*'
+      - 'https://www.mivideo.it.umich.edu/id/*'
+      - 'http://www.mivideo.it.umich.edu/id/*'
+    url: 'https://www.mivideo.it.umich.edu/oembed'
+    discovery: true
+    formats:
+      json: false
+      xml: false

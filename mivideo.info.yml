@@ -1,0 +1,7 @@
+name: 'MiVideo'
+description: 'Adds support for embedding MiVideo alongside YouTube and Vimeo in the Media Library.'
+package: Custom
+type: module
+core_version_requirement: '^8.9 || ^9 || ^10'
+dependencies:
+  - oembed_providers:oembed_providers

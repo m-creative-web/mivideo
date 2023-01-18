@@ -1,0 +1,9 @@
+{
+  "name": "creative/mivideo",
+  "description": "Adds support for embedding MiVideo.",
+  "type": "drupal-module",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "drupal/oembed_providers": "^2.1"
+  }
+}
